@@ -1,0 +1,222 @@
+body {
+    background-image: url('../../assets/images/mb.png');
+    background-repeat: repeat;
+}
+ul {
+    position: fixed;
+    list-style-type: none;
+    right: 0px;
+    left: 0px;
+    top: 0px;
+    margin: 0px;
+    width: 100%;
+    overflow: hidden;
+    background-color: #ffffff;
+    border-bottom-style: solid;
+    border-bottom-color: #999999;
+    border-bottom-width: 2px;
+    z-index: 3;    
+}
+li {
+    left: 60%;
+    position: relative;
+    float: left;
+    border-right: 1px solid #999999;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-right: 1px solid #ddd;    
+}
+li:last-child {
+    border-right: none;
+}
+li a {
+    display: inline-block;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 16px;
+    color: #999999;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+}
+li a:hover:not(.active) {
+    background-color: #ddd;
+}
+li a.active { 
+     color: white; 
+     background-color: #4aaaa5;
+     
+ }
+.active {
+    display: inline-block;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    display: inline-block;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+}
+section {
+    position: relative;
+    background-color: #ffffff;
+    width: 960px;
+    padding: 20px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    line-height: 1.6;
+    height: auto;
+    clear: both;
+    color: #777777;
+}
+.clifton {
+    float: left;
+    padding: 10px;
+    width: auto;
+}
+.footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    clear: both;
+    width: 100%;
+    padding: 15px;
+    border-top-style: solid;
+    border-top-color: #4aaaa5;
+    background-color: #666666;
+    color: white;
+    text-align: center;
+    font-size: 14px;
+    z-index: 2;
+ }
+hr {
+    background-color: #999999;
+    display: block;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset; 
+    border-width: 3px;
+}
+h1 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 32px;
+    color: #4aaaa5;
+    padding: 0;
+    margin: 0;
+}
+#menu-font {
+    position: absolute;
+    left: 15%;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-size: 32px;
+    color: white;
+    background-color: #4aaaa5;
+    display: inline-block;
+    text-align: center;
+    padding: 20px 20px;
+}
+.box {
+    margin-right: auto;
+    margin-left: auto;
+    color: black;
+    width: 75%;
+    line-height: 1.6;
+}
+.button {
+    background-color: #4aaaa5;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.button:hover:not(.active) {
+    background-color: #ddd;
+}
+.buton.active { 
+     color: white; 
+     background-color: #4aaaa5;
+.header {
+    position: relative;
+    font-family: Arial;
+}
+.text-block {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    background-color: black;
+    color: white;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.bulldog { 
+    position: relative; 
+    width: 100%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ h4 { 
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    background-color: #4aaaa5;
+    opacity: .8;
+    color: #ffffff;
+    top: 120px; 
+    left: 15px;
+    padding: 10px 10px;
+    width: 180px;
+    z-index: 1;
+ }
+ h3 { 
+    position: absolute;
+    text-align: center;
+    display: inline-block;
+    background-color: #4aaaa5;
+    opacity: .8;
+    color: #ffffff;
+    top: -65px; 
+    left: 15px;
+    padding: 10px 10px;
+    width: 180px;
+    z-index: 1;
+ }
+ .laptop { 
+    position: relative; 
+    width: 100%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .nature { 
+    position: relative; 
+    width: 100%; 
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .waterfall { 
+    position: relative; 
+    width: 100%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ .paris { 
+    position: relative; 
+    width: 100%;
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto;
+ }
+ p {
+     font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+ }
