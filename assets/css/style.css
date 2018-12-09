@@ -9,6 +9,7 @@ ul {
     left: 0px;
     top: 0px;
     margin: 0px;
+    /* padding: 20px; */
     width: 100%;
     overflow: hidden;
     background-color: #ffffff;
@@ -64,7 +65,7 @@ section {
     width: 960px;
     padding: 20px;
     margin-top: 80px;
-    margin-bottom: 120px;
+    /* margin-bottom: 20px; */
     margin-left: auto;
     margin-right: auto;
     line-height: 1.6;
@@ -137,12 +138,6 @@ h1 {
     display: inline-block;
     font-size: 16px;
 }
-.button:hover:not(.active) {
-    background-color: #ddd;
-}
-.buton.active { 
-     color: white; 
-     background-color: #4aaaa5;
 .header {
     position: relative;
     font-family: Arial;
@@ -156,6 +151,11 @@ h1 {
     padding-left: 20px;
     padding-right: 20px;
 }
+/* img {
+    padding: 15px;
+    margin-left: auto;
+    margin-right: auto; 
+}*/
 .bulldog { 
     position: relative; 
     width: 100%;
@@ -170,6 +170,7 @@ h1 {
     background-color: #4aaaa5;
     opacity: .8;
     color: #ffffff;
+    font-size: 20px;
     top: 120px; 
     left: 15px;
     padding: 10px 10px;
@@ -183,6 +184,7 @@ h1 {
     background-color: #4aaaa5;
     opacity: .8;
     color: #ffffff;
+    font-size: 20px;
     top: -65px; 
     left: 15px;
     padding: 10px 10px;
@@ -220,3 +222,9 @@ h1 {
  p {
      font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
  }
+ .button:hover:not(.active) {
+    background-color: #ddd;
+}
+.button.active { 
+     color: white; 
+     background-color: #4aaaa5;
