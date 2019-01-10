@@ -1,0 +1,25 @@
+body {
+    background-image: url(../../assets/images/basketball-background.jpg);
+    background-repeat: repeat;
+}
+#title-jumbo {
+    background-color: #174c4f;
+}
+p { color: #ffffff; 
+    font-size: 20px; 
+    font-family: "Libre Baskerville", serif; 
+    line-height: 20px; 
+    padding-top: 10px; }
+
+#dub-collector {
+    margin-right: auto;
+}
+.floor-background {
+    background-image: url(../images/wood-floor.jpg);
+}
+#instruction {
+    background-color: #0146ad;
+}
+.text-shadow {
+    text-shadow: 2px 2px #000000;
+}

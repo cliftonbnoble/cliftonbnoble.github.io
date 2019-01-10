@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if gt IE 8]><!--> <html class="no-js" lang="eng"> <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Dub Collector</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+        <link rel="stylesheet" href="assets/css/style.css">
+    </head>
+    <body>
+    <div class="container">
+        <div class="row">
+            <div id="title-jumbo" class="col-lg-8 col-md-8 col-sm-8 jumbotron-fluid mx-auto">
+                <img id="dub-collector" src="assets/images/dub-collector.jpg" class="img-fluid mx-auto d-block"></img>
+            </div>
+        </div>
+        <div class="row pt-1">
+                
+            <div id="win-text" class="mx-auto jumbotron-fluid bg-danger text-white"><h2>You Win!</h2>
+            </div>
+            <div id="lose-text" class="mx-auto jumbotron-fluid bg-danger text-white"><h2>You Lose!</h2>
+            </div>
+        </div>
+        <div class="row pt-1">
+            <div id="win-picture" class="mx-auto"><img src="assets/images/win.gif"></div>
+            <div id="lose-picture" class="mx-auto"><img src="assets/images/lose.gif"></div>
+            <div id="instruction" class="col-lg-8 col-md-8 col-sm-8 jumbotron mx-auto pt-1 pb-1 text-shadow">
+                <p>You will be given a random number at the start of the game.</p>
+                <p>There are four Warriors below.  By clicking on a Warrior you will add a specific amount of points to your total score.</p>
+                <p>You win the game by matching your total score to a random number, you lose the game if your total score goes above the random number.</p>
+                <p>The value of each Warrior is hidden from you until you click on it.</p>
+                <p>Each time the game starts, the game will change the values of each crystal.</p>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-lg-2 col-md-2 col-sm-2 mx-auto"></div>
+            <div class="col-lg-2 col-md-2 col-sm-2 mx-auto">
+            <img id="curry" src="assets/images/curry-1.png" class="img-rounded img-fluid"></img>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 mx-auto">
+            <img id="durant" src="assets/images/durant-1.png" class="img-rounded img-fluid"></img>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 mx-auto">
+            <img id="klay" src="assets/images/klay-1.png" class="img-rounded img-fluid"></img>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 mx-auto">
+            <img id="draymond" src="assets/images/dray-1.png" class="img-rounded img-fluid"></img>
+            </div>
+            <div class="col-lg-2 col-md-2 col-sm-2 mx-auto"></div>
+        </div>
+
+        <div class="row pt-2 text-shadow">
+        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+    <div class="col-lg-4 col-md-4 col-sm-4 jumbotron bg-warning text-center text-white floor-background pr-1">
+        <h2>Match This # <span id="match-this"> </span></h2></div> 
+        <div class="col-lg-2 col-md-2 col-sm-2 text-center text-white jumbotron bg-warning floor-background">
+        <div><h4>Wins: <span id="wins"> </span></h4></div>
+        <div><h4>Losses: <span id="losses"> </span></h4></div>
+    </div>
+    <div class="col-lg-2 col-md-2 col-sm-2 jumbotron bg-warning text-center text-white floor-background">
+        <div><h4>Total Score: <span id="total-score"> ?</span></h4></div>
+        <div class="col-lg-2 col-md-2 col-sm-2"></div>
+        </div>
+        </div> 
+    </div>
+        
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="assets/javascript/games.js" type="text/javascript">
+        
+        </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    </body>
+</html>
