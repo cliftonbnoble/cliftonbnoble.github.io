@@ -1,7 +1,7 @@
-body {
+/* body {
     background-image: url(../../assets/images/basketball-background.jpg);
-    background-repeat: repeat;
-}
+    background-repeat: repeat; */
+/* } */
 #title-jumbo {
     background-color: #174c4f;
 }
@@ -22,4 +22,11 @@ p { color: #ffffff;
 }
 .text-shadow {
     text-shadow: 2px 2px #000000;
+}
+body {
+    background: url(../../assets/images/basketball-background.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
